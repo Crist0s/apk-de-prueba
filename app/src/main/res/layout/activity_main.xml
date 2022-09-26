@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="289dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:hint="Telefono"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPostalAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Direccion"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="305dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="54dp"
+        android:ems="10"
+        android:hint="Escribe tu mensaje aqui"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress"
+        tools:ignore="TextContrastCheck"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="245dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="164dp"
+        android:text="@string/ponte_en_contacto_con_nostoros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
